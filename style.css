@@ -595,12 +595,27 @@ footer {
 }
 
 /* Mobile Responsive */
+/* Mobile Responsive */
 @media (max-width: 768px) {
-    .nav-container { flex-direction: column; padding: 10px; }
-    .nav-links { display: none; } /* Simplified for demo */
-    .hero-headline { font-size: 2.5rem; }
-    .exp-content { padding: 40px 20px; }
-    .logo-container { margin-bottom: 15px; }
+    .nav-container { 
+        flex-direction: column; 
+        padding: 10px; 
+    }
+    
+    .nav-links { 
+        display: flex; /* Changed from 'none' to 'flex' */
+        flex-direction: column; /* Stack them vertically */
+        gap: 20px;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    /* Hide the specific left/right padding adjustments on mobile */
+    .left-links, .right-links { 
+        padding: 0; 
+        justify-content: center;
+    }
 }
 
 /* =========================================
@@ -683,14 +698,26 @@ footer {
 }
 
 /* Responsive for Story Page */
+/* Mobile Responsive */
 @media (max-width: 768px) {
-    .story-grid, .reverse-layout {
-        flex-direction: column;
-        gap: 30px;
+    .nav-container { 
+        flex-direction: column; 
+        padding: 10px; 
     }
     
-    .header-content h1 {
-        font-size: 2.5rem;
+    .nav-links { 
+        display: flex; /* Changed from 'none' to 'flex' */
+        flex-direction: column; /* Stack them vertically */
+        gap: 20px;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    /* Hide the specific left/right padding adjustments on mobile */
+    .left-links, .right-links { 
+        padding: 0; 
+        justify-content: center;
     }
 }
 
@@ -771,9 +798,27 @@ footer {
 }
 
 /* Mobile Responsiveness */
+/* Mobile Responsive */
 @media (max-width: 768px) {
-    .reservation-box { padding: 20px; }
-    .form-row { flex-direction: column; gap: 20px; }
+    .nav-container { 
+        flex-direction: column; 
+        padding: 10px; 
+    }
+    
+    .nav-links { 
+        display: flex; /* Changed from 'none' to 'flex' */
+        flex-direction: column; /* Stack them vertically */
+        gap: 20px;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    /* Hide the specific left/right padding adjustments on mobile */
+    .left-links, .right-links { 
+        padding: 0; 
+        justify-content: center;
+    }
 }
 
 /* =========================================
@@ -937,9 +982,26 @@ footer {
 }
 
 /* Mobile Tweak */
+/* Mobile Responsive */
 @media (max-width: 768px) {
-    .gallery-grid {
-        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    .nav-container { 
+        flex-direction: column; 
+        padding: 10px; 
+    }
+    
+    .nav-links { 
+        display: flex; /* Changed from 'none' to 'flex' */
+        flex-direction: column; /* Stack them vertically */
+        gap: 20px;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    /* Hide the specific left/right padding adjustments on mobile */
+    .left-links, .right-links { 
+        padding: 0; 
+        justify-content: center;
     }
 }
 
@@ -1066,7 +1128,25 @@ footer {
 }
 
 /* Responsive Tweak */
+/* Mobile Responsive */
 @media (max-width: 768px) {
-    .contact-grid { flex-direction: column; }
-    .map-container { width: 100%; }
+    .nav-container { 
+        flex-direction: column; 
+        padding: 10px; 
+    }
+    
+    .nav-links { 
+        display: flex; /* Changed from 'none' to 'flex' */
+        flex-direction: column; /* Stack them vertically */
+        gap: 20px;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    /* Hide the specific left/right padding adjustments on mobile */
+    .left-links, .right-links { 
+        padding: 0; 
+        justify-content: center;
+    }
 }
