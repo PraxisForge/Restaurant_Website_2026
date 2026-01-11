@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Madras Masalas</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="global-nav">
+        <div class="nav-container">
+            <ul class="nav-links left-links">
+                <li><a href="index.html" class="nav-item">Home</a></li>
+                <li><a href="our-story.html" class="nav-item">Our Story</a></li>
+                <li class="has-dropdown">
+                    <a href="#" class="nav-item">Menu <i class="fas fa-chevron-down"></i></a>
+                    <div class="mega-menu">
+                        <div class="cuisine-card" style="background-image: url('https://www.cookwithmanali.com/wp-content/uploads/2015/07/Restaurant-Style-Recipe-Paneer-Tikka.jpg');">
+                            <div class="overlay">
+                                <h3>Starters</h3>
+                                <p>Samosas, Paneer Tikka</p>
+                            </div>
+                        </div>
+                        <div class="cuisine-card" style="background-image: url('https://b.zmtcdn.com/data/pictures/chains/5/19591905/94a94a9f8b13a4e4c4b4b55efd0dd107.jpg');">
+                            <div class="overlay">
+                                <h3>Biryani</h3>
+                                <p>Seeraga Samba & Basmati</p>
+                            </div>
+                        </div>
+                        <div class="cuisine-card" style="background-image: url('https://i0.wp.com/cookingfromheart.com/wp-content/uploads/2019/04/Jigarthanda-7.jpg?w=946&ssl=1');">
+                            <div class="overlay">
+                                <h3>Beverages</h3>
+                                <p>Degree Coffee & Jigarthanda</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <a href="index.html" class="logo-container" style="text-decoration: none;">
+                <div class="steam-container">
+                    <span class="steam"></span><span class="steam"></span><span class="steam"></span>
+                </div>
+                <div class="dish-wrapper">
+                    <div class="dish-ring"></div>
+                    <i class="fas fa-utensils dish-icon"></i>
+                </div>
+                <div class="logo-text">MADRAS MASALAS</div>
+            </a>
+
+            <ul class="nav-links right-links">
+                <li><a href="reservations.html" class="nav-item">Reservations</a></li>
+                <li><a href="gallery.html" class="nav-item" style="color:var(--gold);">Gallery</a></li>
+                <li><a href="location.html" class="nav-item">Locations</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header" style="background-image: url('https://images.unsplash.com/photo-1505253758473-96b701d2cd03?q=80&w=1600&auto=format&fit=crop');">
+        <div class="hero-overlay"></div>
+        <div class="header-content">
+            <h1>A Visual Feast of Spice, <br>Steam, and Smiles.</h1>
+            <p>See the food, feel the story — from sizzling tawa to family thalis.</p>
+        </div>
+    </header>
+
+    <section class="gallery-section section-padding">
+        <div class="container">
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="dishes">Signature Dishes</button>
+                <button class="filter-btn" data-filter="snacks">Tiffins & Snacks</button>
+                <button class="filter-btn" data-filter="ambience">Ambience</button>
+                <button class="filter-btn" data-filter="kitchen">Kitchen & Chefs</button>
+            </div>
+
+            <div class="gallery-grid">
+                
+                <div class="gallery-item" data-category="dishes">
+                    <img src="https://i0.wp.com/blendofspicesbysara.com/wp-content/uploads/2020/10/PXL_20201011_200951855.PORTRAIT-01.jpeg?resize=800%2C840&ssl=1" alt="Steaming Chicken Biryani">
+                    <div class="gallery-overlay">
+                        <div class="text">
+                            <h3>Chettinad Chicken Biryani</h3>
+                            <p>Slow-cooked with saffron and roasted spices.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="snacks">
+                    <img src="https://www.qasralbaharshj.com/wp-content/uploads/2024/11/GheeRoast_1.webp" alt="Crispy Dosa">
+                    <div class="gallery-overlay">
+                        <div class="text">
+                            <h3>Ghee Roast Dosa</h3>
+                            <p>Crisp edges, soft center, served with 3 chutneys.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="ambience">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/74/49/38/jhind.jpg?w=1800&h=1000&s=1" alt="Cozy Dining Corner">
+                    <div class="gallery-overlay">
+                        <div class="text">
+                            <h3>Rustic Interiors</h3>
+                            <p>Warm lighting and traditional brass lamps.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="dishes">
+                    <img src="https://content.jdmagicbox.com/v2/comp/mumbai/r4/022pxx22.xx22.190305131115.h5r4/catalogue/thalis-and-combos-by-treat-mumbai-north-indian-delivery-restaurants-kopls6wbq4.jpg" alt="Vegetarian Thali">
+                    <div class="gallery-overlay">
+                        <div class="text">
+                            <h3>Family Thali</h3>
+                            <p>Rice, sambar, rasam, and love on a single plate.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="kitchen">
+                    <img src="https://zamaorganics.com/cdn/shop/articles/Untitled_design_42_bda1f678-637d-4bda-9d7a-cb4e6fbc4046.jpg?v=1729596701&width=1000" alt="Chef Grinding Spices">
+                    <div class="gallery-overlay">
+                        <div class="text">
+                            <h3>Hand-Pounded Masalas</h3>
+                            <p>Tradition passed down through generations.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="snacks">
+                    <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=600&auto=format&fit=crop" alt="Samosas">
+                    <div class="gallery-overlay">
+                        <div class="text">
+                            <h3>Evening Snacks</h3>
+                            <p>Crispy Samosas fresh from the fryer.</p>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="gallery-item" data-category="kitchen">
+                    <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=600&auto=format&fit=crop" alt="Market Spices">
+                    <div class="gallery-overlay">
+                        <div class="text">
+                            <h3>Market Mornings</h3>
+                            <p>Fresh red chilies and coriander sourced daily.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="ambience">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/eb/88/68/the-reef-all-day-dining.jpg?w=1400&h=800&s=1" alt="Table Setting">
+                    <div class="gallery-overlay">
+                        <div class="text">
+                            <h3>Table Settings</h3>
+                            <p>Ready for a community feast.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+             <div style="text-align: center; margin-top: 60px;">
+                <h3 style="color: var(--gold); margin-bottom: 20px;">Loved what you saw?</h3>
+                <a href="reservations.html" class="btn btn-primary">Reserve a Table</a>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-img" id="lightbox-img" src="">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>Madras Masalas</h3>
+                <p>Heritage on a plate.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>+91 44 2345 6789</p>
+            </div>
+            <div class="footer-col">
+                <h3>Follow Us</h3>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Madras Masalas. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // 1. FILTERING LOGIC
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                const filterValue = btn.getAttribute('data-filter');
+
+                galleryItems.forEach(item => {
+                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                        item.classList.remove('hide');
+                        item.classList.add('show');
+                    } else {
+                        item.classList.remove('show');
+                        item.classList.add('hide');
+                    }
+                });
+            });
+        });
+
+        // 2. LIGHTBOX LOGIC
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxCaption = document.getElementById('lightbox-caption');
+        const closeBtn = document.querySelector('.close-lightbox');
+
+        galleryItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const img = item.querySelector('img');
+                const title = item.querySelector('h3').innerText;
+                const desc = item.querySelector('p').innerText;
+
+                lightbox.style.display = 'flex';
+                lightboxImg.src = img.src;
+                lightboxCaption.innerHTML = `<h3>${title}</h3><p>${desc}</p>`;
+            });
+        });
+
+        closeBtn.addEventListener('click', () => {
+            lightbox.style.display = 'none';
+        });
+
+        lightbox.addEventListener('click', (e) => {
+            if (e.target !== lightboxImg) {
+                lightbox.style.display = 'none';
+            }
+        });
+    </script>
+
+</body>
+</html>
